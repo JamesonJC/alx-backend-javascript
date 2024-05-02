@@ -3,7 +3,6 @@
  * @param {string} message - The message to log.
  * @returns {void}
  */
-// Function taking in string as text
 const displayMessage = (text) => {
     console.log(text);
 }
@@ -12,5 +11,4 @@ const displayMessage = (text) => {
  * @module displayMessage
  * @function
  */
-//Module export
 module.exports = displayMessage;
